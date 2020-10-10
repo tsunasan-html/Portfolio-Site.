@@ -1,0 +1,148 @@
+body{
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.main{
+  color:white;
+  background-image: url(file:///Users/muneyukitetsuhiro/Downloads/cat-4977436_1280.jpg);
+  background-size: cover;
+}
+
+.main-container {
+  width: 1170px;
+  height: 400px;
+  margin:0 auto;
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+
+.main h1 { 
+  font-size: 22px;
+  opacity: 0.8;
+  letter-spacing: 12px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 3px white
+  
+}
+
+.main p{
+  padding-top: 240px;
+  font-size: 25px;
+  opacity: 0.9;
+  letter-spacing: 8px;
+}
+.main a{
+ color: white;
+ padding: 8px 24px;
+ border-radius: 4px;
+ display: inline-block;
+}
+
+.main a:hover{
+  opacity: 1;
+}
+
+.you{
+  background-color: tomato;
+  opacity:0.8;
+  margin-right: 30px;
+  box-shadow: 0 7px grey;
+    display: inline-block;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+i{
+  margin-right: 5px;
+}
+
+.twi {
+  background-color: #55acee;
+  opacity: 0.8;
+  box-shadow: 0 7px grey;
+  display: inline-block;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+header{
+  background-color:rgba(34,49,52,0.9);
+  height:65px;
+  position: fixed;
+  width:100%;
+  z-index:10px;
+}
+header img{
+  width:65px;
+  padding-top:10px;
+
+color:white;
+float: right;
+line-height: 65px;
+background-color: rgba(255,255,255,0.3);
+padding: 0px 25px;
+transition: all 1s;
+}
+
+
+.contens {
+  height: 550px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+.heading {
+  padding-top:60px;
+  padding-bottom: 30px;
+  color:#5f5d60;
+}
+
+.heading h2 { 
+  font-weight: normal;
+  text-align: center;
+  opacity: 0.8;
+  border-bottom: 1px solid #000;
+  padding-bottom: 30px;
+  
+}
+
+
+
+
+.gazoutoka{
+  float: left;
+  
+}
+
+.gazou-icon a{
+  text-align: center;
+}
+
+.gazou-icon h3{
+  text-align: center;
+}
+
+.gazou-icon {
+  position: relative;
+  opacity: 0.6;
+}
+
+.gazou-icon p {
+  
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color:black;
+  text-align: center;
+}
