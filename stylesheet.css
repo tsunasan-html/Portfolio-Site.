@@ -165,10 +165,26 @@ transition: all 1s;
    display: flex;
    margin: 0 auto;
  }
+ 
+ .main h1 {
+ 
+  
+ }
+.gazou-icon {
+  margin-left: 230px;
+}
 
+
+.gazou-icon p {
+  
+padding-left: 10px;
+padding-top: 10px;
+
+}
  .contens{
   display: flex;
   margin: 0 auto;
+  height: 1500px;
  }
 }
 @media (min-width: 800px) {
