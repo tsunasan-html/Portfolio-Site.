@@ -146,3 +146,40 @@ transition: all 1s;
   color:black;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+ .main {
+   display: flex;
+   margin: 0 auto;
+ }
+
+ .contens{
+  display: flex;
+  margin: 0 auto;
+ }
+}
+@media (min-width: 800px) {
+ 
+  .main {
+    display: flex;
+    margin: 0 auto;
+  }
+ 
+  .contens{
+   display: flex;
+   margin: 0 auto;
+  }
+}
